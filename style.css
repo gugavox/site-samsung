@@ -1,0 +1,107 @@
+:root{
+    --vermelho: #ffffff;
+    --preto: #ffffff;
+}
+
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0px;
+    max-height: 500;
+    max-width: 250;
+}
+
+body{
+    background: var(--vermelho );
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(0, 0, 0);
+    margin: 70px; 
+}
+header .containerg{
+       display: flex; 
+       flex-direction: row;   
+       align-items: center;   
+       justify-content: space-between; 
+       margin-left: 415px;
+       margin-right: -900px;
+       margin-top: -175px;
+      
+}
+
+header .logo{
+    margin-left: 45px;
+    margin-right: 0px;
+    color:rgb(0, 0, 0);
+    margin-top: -95px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 15px;
+    
+}
+
+header nav a:haver{
+    color:rgb(0, 0, 0);
+}
+
+
+.descricaosite{
+    font-size: 16px;
+    background: linear-gradient(#ff8f26, rgba(#f77700));
+    margin-left: -45px;
+    margin-right: -25px;
+    margin-top: -20px;
+    
+}
+
+img{
+margin-left: -100px;
+margin-right: 100px;
+margin-top: -75px;
+border-width: 0px;
+border-style: solid;
+
+max-width: 450px;
+max-height: 250px;
+
+
+
+}
+
+.sede{ 
+    margin-left: 700px;
+    margin-right: 210px;
+    margin-top: -1000px;
+    border-width: 0px;
+    border-style: solid;
+    max-width: 600px;
+    max-height: 250px;
+ background-color: #f77700;
+}
+
+.botao3{
+
+    margin-top: 0px;
+    margin-left: 13px;
+    margin-right: -80px;
+}
+
+.sede.contato{
+    margin-left: 100px;
+    margin-right: 250px;
+    margin-top: 100px;
+    border-width: 0px;
+    border-style: solid;
+    
+    max-width: 600px;
+    max-height: 250px;
+ background-color: #f77700; 
+
+}
+
+p{
+    color: #f77700;
+}
